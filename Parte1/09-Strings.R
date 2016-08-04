@@ -16,7 +16,7 @@ cat(nome, sobrenome)
 
 
 # Formatando a saida
-sprintf("%s governa os EUA hÃ¡ %d anos", "Barack Obama", 8) 
+sprintf("%s governa os EUA há %d anos", "Barack Obama", 8) 
 
 
 # Extraindo parte da string
@@ -42,18 +42,18 @@ strsplit("Histogramas e Elementos de Dados", NULL)
 ?strsplit
 
 
-# Dividindo uma string em caracteres, apos o caracter espaÃ§o
+# Dividindo uma string em caracteres, apos o caracter espaço
 strsplit("Histogramas e Elementos de Dados", " ")
 
 
 # Trabalhando com strings
-string1 <- c("Esta Ã© a primeira parte da minha string e serah a primeira parte do meu vetor", 
-             "Aqui a minha string continua, mas serÃ¡ transformada no segundo vetor")
+string1 <- c("Esta é a primeira parte da minha string e será a primeira parte do meu vetor", 
+             "Aqui a minha string continua, mas será transformada no segundo vetor")
 
 string1
 
 string2 <- c("Precisamos testar outras strings - @???!Â§$",
-             "AnÃ¡lise de Dados em R")
+             "Análise de Dados em R")
 
 string2
 
@@ -66,7 +66,7 @@ str_count(string2, "s")
 
 
 # Localiza a primeira e ultima posicao em que o caracter aparece na string
-str_locate_all(string2, "s")
+str_locate_all(string2, "st")
 
 
 # Substitui a primeira ocorrencia de um caracter
